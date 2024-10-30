@@ -1,0 +1,38 @@
+.card {
+    background-color: rgb(250, 238, 238); /* Card background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(180, 35, 156, 0.7); /* Shadow effect */
+    padding: 20px; /* Spacing inside the card */
+    margin: 10px; /* Spacing outside the card */
+    transition: transform 0.2s; /* Animation for hover effect */
+    max-width: 300px; /* Maximum width of the card */
+    width: 200px;
+    height: 230px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Change from height to min-height */
+    width: 100vw; /* Keep this if needed */
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping to avoid overflow */
+}
+
+
+.counter-container{
+    width: 20vw;
+    align-self: flex-start;
+    padding-top: 10px;
+}
+
